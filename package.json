@@ -1,0 +1,11 @@
+{
+  "name": "my-hoste",
+  "private": true,
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "start": "npm run start -w backend",
+    "start:backend": "npm run start -w backend"
+  }
+}
